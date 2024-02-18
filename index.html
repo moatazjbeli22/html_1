@@ -38,10 +38,9 @@
         
     </section >
     <section id="resume">
-        <h2>Resume</h2>
-        <p>
-            there are many video game and Today, video game development requires numerous interdisciplinary skills, vision, teamwork, and liaisons between different parties, including developers, publishers, distributors, retailers, hardware manufacturers, and other marketers, to successfully bring a game to its consumers. As of 2020, the global video game market had estimated annual revenues of US$159 billion across hardware
-        </p>
+        <!-- <h2>Resume</h2>
+        <p>there are many video game and Today, video game development requires numerous interdisciplinary skills, vision, teamwork, and liaisons between different parties, including developers, publishers, distributors, retailers, hardware manufacturers, and other marketers, to successfully bring a game to its consumers. As of 2020, the global video game market had estimated annual revenues of US$159 billion across hardware
+        </p> -->
 
        
         
@@ -49,39 +48,24 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>if you wana join us please complete the form</p>
-        <form>
+        <form id="contactForm" onsubmit="return test()">
             <label>Name:</label>
-      <input type="text" name="first name" placeholder="Type your name here" />
+      <input type="text" name="first name" placeholder="Type your name here" required />
       <br />
 
       <label>Number:</label>
-      <input type="number" name="number" value="53366128" />
+      <input type="number" name="number" value="53366128" required />
       <br />
 
       <label>Birth Date:</label>
-      <input type="date" name="birthday" />
+      <input type="date" name="birthday" required />
       <br />
 
       <label>Password:</label>
-      <input type="password" name="password" />
+      <input type="password" name="password" id="password" required />
       <br />
       <label> Confirm Password:</label>
-      <input type="password" name="password" />
+      <input type="password" name="confirm password" id="confirmPassword" required />
       <br />
 
-      <input type="submit" value="Submit"  onsubmit="test()"/>
-    </form>
-    </section>
-<section>
-
-    <footer>
-        <p>thanks for for visiting </p>
-        <p>to contact us</p>
-        <a href="https://www.facebook.com/profile.php?id=100079261159108&locale">this is our facebook</a> <br>
-        <a href="https://www.instagram.com/moatazjbalii/">this is our instagram</a>
-        <p>this our phone number +21653366128</p> 
-
-    </footer>
-</section>
-</body>
-</html>
+      <input
